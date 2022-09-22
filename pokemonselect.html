@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Pokemon Select</title>
+  </head>
+  <body>
+    <h1>Create your profile</h1>
+    <h2>Please select your avatar</h2>
+    <div id="avatars">
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioAvatar"
+          id="Boy"
+        />
+        <label class="form-check-label" for="flexRadioDefault1">
+          <img
+            src="https://www.spriters-resource.com/resources/sheet_icons/8/8324.png"
+            alt=""
+          />
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioAvatar"
+          id="Girl"
+          checked
+        />
+        <label class="form-check-label" for="flexRadioDefault2">
+          <img
+            src="https://www.spriters-resource.com/resources/sheet_icons/8/8325.png"
+            alt=""
+          />
+        </label>
+      </div>
+    </div>
+    <h2>Please select your starter Pokemon</h2>
+    <div id="avatars">
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioPokemon"
+          id="Bulbasaur"
+          
+        />
+        <label class="form-check-label" for="flexRadioDefault2">
+          <img class="pokemon-sprite"
+            src="https://pa1.narvii.com/6386/4ebd8963472911fb4e821cd537eea004e572091c_hq.gif"
+            alt=""
+          />
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioPokemon"
+          id="Charmander"
+          
+        />
+        <label class="form-check-label" for="flexRadioDefault2">
+          <img class="pokemon-sprite"
+            src="http://pa1.narvii.com/6435/a5fd4fbab76fa68015adb9a837cc947eba6f54d9_00.gif"
+            alt=""
+          />
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioPokemon"
+          id="Squirtle"
+          checked
+        />
+        <label class="form-check-label" for="flexRadioDefault2">
+          <img class="pokemon-sprite"
+            src="https://i.gifer.com/origin/d8/d83e9951f28fc811c1166b16dcaec930_w200.gif"
+            alt=""
+          />
+        </label>
+      </div>
+    </div>
+      <button id="create" class="btn btn-primary">
+        Create
+      </button>
+      <script src="index.js"></script>
+  </body>
+</html>
